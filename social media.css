@@ -1,0 +1,109 @@
+body{
+	border:30%;
+	margin:10%;
+	background-image:url("https://images5.alphacoders.com/481/481903.png");
+	Background-repeat:no-repeat ;
+	Background-size:100% 170%;
+}
+nav{
+    display:inline-block;
+  padding: 15px;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177);
+  transition: 3s;
+  animation: 3s myAnimation ease linear;
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #ff3352;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.nav-type {
+  animation: 3s myWorld ease linear;
+}
+a{
+	text-decoration:none;
+	padding:10px;
+	margin: auto 0;
+	font-family:Castellar;
+    color:white;
+}
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.active{
+  transition: 1s;
+}
+
+.active1 {
+  transition: 1s;
+}
+
+.active2 {
+  transition: 1s;
+}
+.active3{
+  transition: 1s;
+}
+
+.active4 {
+  transition: 1s;
+}
+
+.active3:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+  margin-top: -100px;
+}
+
+.active2:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active1:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+
+h1{
+	text-align:right-side;
+	color:black;
+    font-family:Calibri;
+}
+main{
+	display:inline-block;
+}
+footer{
+	float:right;
+	margin:2%;
+}
+section{
+	text-align:center;
+}
+h3{
+	text-align:center;
+	color:grey;
+}<img src="https://www.pixelstalk.net/wp-content/uploads/2016/03/Yellow-wallapaper-HD-pikachu.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="5">
